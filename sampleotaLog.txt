@@ -1,0 +1,123 @@
+[36mSending...
+signal: id=VUMCloud.CloudServerToVUM, command, value: 
+
+[36mSending...
+signal: id=VUMCloud.CloudServerToVUM, command, value: 
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 0
+ PackageFileValidationStatus 0
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 1
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 2
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 3
+ PackageFileValidationStatus 1
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 4
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 5
+ WaitingUpdateCycleStartAuthorization
+
+[36mSending...
+signal: id=VUMCloud.CloudServerToVUM, command, value: 
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 6
+ UpdateCycleStartAuthorizationAccepted
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 7
+ WaitingUpdateCycleStartConditions
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 8
+ UpdateCycleStartConditionsSatisfied
+
+[36mSending...
+signal: id=VUMCloud.CloudServerToVUM, command, value: 
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 9
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 10
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 11
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 12
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 13
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 14
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 15
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 16
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 17
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 18
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 19
+ UpdateCycleProgress
+
+[32mReceiving...
+Received VUMToCloudServer message
+ Message Sequence Number = 20
+ UpdateCycleError
+  Error 29 for ECU ID 16409, component 0
+  Error 29 for ECU ID 16409, component 1
+  Error 29 for ECU ID 16409, component 2
+
+[39m
+Exiting with status: 3, Firmware Update FAILED
+

@@ -1,0 +1,316 @@
+INFO:  VUM Version: VUM_App_00.24.03."developer"_F-00000226_May 28 2018_18:07:47
+INFO:  Message received by VUM...
+INFO:  Receiving...
+INFO:  Message Sequence Number = 0
+INFO:  NotificationOfNewPackageFile message
+INFO:  Checking on PackageFileEntry size: 0
+INFO:  NotificationOfNewLocalPackageFile pre-processing phase
+INFO:  Couldn't find cached enumeration data at ../vum_data/StoredEnumAll.protoser
+INFO:  readCachedEnumerationData flag is set, StoredEnumeration file exists
+INFO:  Parsing from file: ../vum_data/StoredEnumSelected.protoser
+DEBUG:  StoredEnumeration: message_identifier: "STOREDENUM"
+format_version: 0
+my_enumeration_status: ENUMSTAT_Complete
+start_of_enumeration_epoch_time: 1528762433
+end_of_enumeration_epoch_time: 1528762436
+my_protected_data: "\n\003ERL\020\000\032\023\n\003ER1\020\000\030\231\200\001 \001(\304\240\374\330\005"
+
+INFO:  Package File Path: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/SWOTA-package.swpkg
+INFO:  Checking package extension .swpkg
+INFO:  Checking package extension .swpkg
+INFO:  SWOTA Filename: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/SWOTA-package.swpkg
+INFO:  SWOTA Package Path: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/
+INFO:  SWOTA Package Name: SWOTA-package.swpkg
+INFO:  FOTA filename: SWOTA-package.cpkg
+INFO:  FOTA pathname: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/SWOTA-package.cpkg
+INFO:  Unpacking SecuredItem
+INFO:  No preconditions to check, adding SWOTA_ECM unconditionally
+INFO:  No preconditions to check, adding SWOTA_ECM unconditionally
+INFO:  No preconditions to check, adding SWOTA_ECM unconditionally
+INFO:  Responding with PackageFileValidationStatus message 1
+INFO:  Message received by VUM...
+INFO:  Receiving...
+INFO:  Message Sequence Number = 1
+INFO:  NotificationOfNewPackageFile message
+INFO:  Checking on PackageFileEntry size: 1
+INFO:  NotificationOfNewLocalPackageFile validation phase
+INFO:  Package File Path: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/SWOTA-package.swpkg
+INFO:  Checking package extension .swpkg
+INFO:  Checking package extension .swpkg
+INFO:  SWOTA Filename: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/SWOTA-package.swpkg
+INFO:  SWOTA Package Path: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/
+INFO:  SWOTA Package Name: SWOTA-package.swpkg
+INFO:  FOTA filename: SWOTA-package.cpkg
+INFO:  FOTA pathname: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/SWOTA-package.cpkg
+INFO:  Unpacking SecuredItem
+INFO:  CPKG Package Path: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/
+INFO:  CPKG Package Name: SWOTA-package.cpkg
+INFO:  Responded with UpdateCycleProgress message
+INFO:  Responded with UpdateCycleProgress message
+INFO:  ECM file entry present: DCM_BLU.ec2
+INFO:  ECM file entry present: DCM_Cal_90000001.ec2
+INFO:  ECM file entry present: DCM_App_A1.ec2
+INFO:  InitializeSystemMap: Initializing System Map
+INFO:  InitializeSystemMap: File to open ../vum_data/DF91_SystemMapContainer.protoser
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  Looking for ECU Module File ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_BLU.ec2
+INFO:  Hash of ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_BLU.ec2: ef347bf748a43f3b05c8d1dfc7b728097057f0b85dc552d06d5861b241a764e5
+INFO:  Hash from manifest: ef347bf748a43f3b05c8d1dfc7b728097057f0b85dc552d06d5861b241a764e5
+INFO:  Looking for ECU Module File ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_Cal_90000001.ec2
+INFO:  Hash of ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_Cal_90000001.ec2: 17ac31927b1908b60d75122c9c1e31ef63ca920e66797633acb224e2e6be8737
+INFO:  Hash from manifest: 17ac31927b1908b60d75122c9c1e31ef63ca920e66797633acb224e2e6be8737
+INFO:  Looking for ECU Module File ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_App_A1.ec2
+INFO:  Hash of ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_App_A1.ec2: 6adf8758d94e49735a7d0b4928c4dd41459541426041686966e31a61b80bbae0
+INFO:  Hash from manifest: 6adf8758d94e49735a7d0b4928c4dd41459541426041686966e31a61b80bbae0
+INFO:  Responding with PackageFileValidationStatus message 1
+INFO:  Responding with WaitingUpdateCycleStartAuthorization message
+INFO:  Message received by VUM...
+INFO:  Receiving...
+INFO:  Message Sequence Number = 2
+INFO:  UpdateCycleStartAuthorization message
+INFO:  Responded with UpdateCycleStartAuthorizationAccepted message
+INFO:  3 gate conditions are present
+INFO:  VUMGatingMgr: gaters == 0x13
+INFO:  VUMGatingMgr: gaters == 0x13
+INFO:  Checking VUMCloud::GC_NOT_DRIVING gate
+INFO:  VUMCloud::GC_NOT_DRIVING condition satisfied
+INFO:  Checking VUMCloud::GC_CHARGING gate
+INFO:  VUMCloud::GC_CHARGING condition satisfied
+INFO:  Checking VUMCloud::GC_HOME_LOCATION gate
+INFO:  VUMCloud::GC_HOME_LOCATION condition satisfied
+INFO:  Gating conditions satisfied message sequence
+INFO:  Responded with WaitingUpdateCycleStartConditions message
+INFO:  VUMGatingMgr: gaters == 00
+INFO:  All gating conditions satisfied, update can proceed
+INFO:  Responded with UpdateCycleStartConditionsSatisfied message
+INFO:  Message received by VUM...
+INFO:  Receiving...
+INFO:  Message Sequence Number = 3
+INFO:  VUM Version: VUM_App_00.24.03."developer"_F-00000226_May 28 2018_18:07:16
+INFO:  StartVehicleFirmwareUpdate message
+INFO:  Starting vehicle firmware update
+INFO:  ECM file entry present: DCM_BLU.ec2
+INFO:  ECM file entry present: DCM_Cal_90000001.ec2
+INFO:  ECM file entry present: DCM_App_A1.ec2
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  Looking for ECU Module File ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_BLU.ec2
+INFO:  Hash of ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_BLU.ec2: ef347bf748a43f3b05c8d1dfc7b728097057f0b85dc552d06d5861b241a764e5
+INFO:  Hash from manifest: ef347bf748a43f3b05c8d1dfc7b728097057f0b85dc552d06d5861b241a764e5
+INFO:  Looking for ECU Module File ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_Cal_90000001.ec2
+INFO:  Hash of ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_Cal_90000001.ec2: 17ac31927b1908b60d75122c9c1e31ef63ca920e66797633acb224e2e6be8737
+INFO:  Hash from manifest: 17ac31927b1908b60d75122c9c1e31ef63ca920e66797633acb224e2e6be8737
+INFO:  Looking for ECU Module File ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_App_A1.ec2
+INFO:  Hash of ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_App_A1.ec2: 6adf8758d94e49735a7d0b4928c4dd41459541426041686966e31a61b80bbae0
+INFO:  Hash from manifest: 6adf8758d94e49735a7d0b4928c4dd41459541426041686966e31a61b80bbae0
+INFO:  Computed offset to image: 70
+INFO:  Computed offset to image: 67
+INFO:  Computed offset to image: 70
+INFO:  Processing 477992 bytes of images
+INFO:  Computed offset to image: 70
+INFO:  Stored hash of image: c6dfa59e3141c7c8391f0045af66074df5bc18da4b060f6197015073b66f925b
+INFO:  Computed hash of image: c6dfa59e3141c7c8391f0045af66074df5bc18da4b060f6197015073b66f925b
+INFO:  Starting firmware Update - Cycle: 0, file: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_BLU.ec2
+INFO:  ECU Module Format Version = 2
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  GetGatewayServerIPAddress IP address 172.26.200.101
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  GetGatewayBroadcastIPAddress IP address 172.26.200.255
+INFO:  Setting up for component 2 of ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_BLU.ec2
+INFO:  Program block 0, address 0x00014000, size 0x00013290
+INFO: Starting DoIP Instance
+INFO: DoIP test equipment configuration :-
+INFO:   serverip: 172.26.200.101
+INFO:   broadcastAddr: 172.26.200.255
+INFO:   doip port: 13400
+INFO:   bus_ecuid: 0x4019
+INFO: Starting all threads ...
+INFO: Entering doip_AC_threadInit
+INFO: doip_AC_threadInit: Calling mutex_init
+INFO: Connecting to DOIP Gateway and sending routing activation request
+INFO: TCP Handler connected to DOIP Gateway
+INFO:     &pDoipGlobalData->doipClientReceiveTID=0xa52748
+INFO:     doipClientHandlerThread=0x40c5b0
+INFO:     pDoipGlobalData=0xa52608
+INFO: Entering OpenThread
+INFO: OpenThread: Calling pthread_create, arguments are:
+INFO:     pThreadID=0xa52748
+INFO:     NULL=NULL
+INFO:     pThreadHandler=0x40c5b0
+INFO:     (void*)pDoipGlobalData)=0xa52608
+INFO: OpenThread: Testing status
+INFO: OpenThread: Returning from OpenThread
+INFO: Exiting doip_AC_threadInit
+INFO: DoIP test equipment has been initialized successfully.
+INFO:  Update Status = 0%
+INFO: Entering doipClientHandlerThread
+INFO: received eRouteActResp
+INFO: route activation resp code : eSuccessRoute
+INFO:  Update Status = 0%
+INFO: About to start ecu binary file updater
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  GetUpdateDiscoveryMethod updateDiscoveryMethod 5
+INFO: Resetting server to bootloader
+INFO: =======================
+INFO: Start updater_ecu_discovery
+INFO:  Updater State = 9
+
+INFO: =======================
+INFO: Set to Programming session
+INFO: Send diag messages 2
+INFO: processing doip message
+INFO: received eDiagMsgNegAck
+INFO: source address: 2004
+INFO: target address: 1111
+INFO: diagnostic ack code: eUnkownTA
+INFO: Receiving a negative Ack
+INFO: Waiting to finish all thread job
+INFO: End of doip client message receive thread
+INFO: ECU Update failed
+INFO:  Update Status = 16%
+INFO:  Final/Single Update Status = 0x0000001D
+INFO:  Exiting UpdateThisECU_, return value = 0x0000001D
+INFO: DOIP function failed with 1
+INFO: Exiting doipAppControlMain
+INFO:  Update failed for ECU Entry 0, ECU ID 0x4019
+INFO:  Computed offset to image: 67
+INFO:  Stored hash of image: 45578f7b6e247f4dd9c7272b5f1eda38bf0bd14b2a2920421f5330725bb9b445
+INFO:  Computed hash of image: 45578f7b6e247f4dd9c7272b5f1eda38bf0bd14b2a2920421f5330725bb9b445
+INFO:  Starting firmware Update - Cycle: 1, file: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_Cal_90000001.ec2
+INFO:  ECU Module Format Version = 2
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  GetGatewayServerIPAddress IP address 172.26.200.101
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  GetGatewayBroadcastIPAddress IP address 172.26.200.255
+INFO:  Setting up for component 1 of ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_Cal_90000001.ec2
+INFO:  Program block 0, address 0x00010000, size 0x00000080
+INFO: Starting DoIP Instance
+INFO: DoIP test equipment configuration :-
+INFO:   serverip: 172.26.200.101
+INFO:   broadcastAddr: 172.26.200.255
+INFO:   doip port: 13400
+INFO:   bus_ecuid: 0x4019
+INFO: Starting all threads ...
+INFO: Entering doip_AC_threadInit
+INFO: doip_AC_threadInit: Calling mutex_init
+INFO: Connecting to DOIP Gateway and sending routing activation request
+INFO: TCP Handler connected to DOIP Gateway
+INFO:     &pDoipGlobalData->doipClientReceiveTID=0xa52748
+INFO:     doipClientHandlerThread=0x40c5b0
+INFO:     pDoipGlobalData=0xa52608
+INFO: Entering OpenThread
+INFO: OpenThread: Calling pthread_create, arguments are:
+INFO:     pThreadID=0xa52748
+INFO:     NULL=NULL
+INFO:     pThreadHandler=0x40c5b0
+INFO:     (void*)pDoipGlobalData)=0xa52608
+INFO: OpenThread: Testing status
+INFO: OpenThread: Returning from OpenThread
+INFO: Exiting doip_AC_threadInit
+INFO: DoIP test equipment has been initialized successfully.
+INFO:  Update Status = 16%
+INFO: Entering doipClientHandlerThread
+INFO: received eRouteActResp
+INFO: route activation resp code : eSuccessRoute
+INFO:  Update Status = 16%
+INFO: About to start ecu binary file updater
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  GetUpdateDiscoveryMethod updateDiscoveryMethod 5
+INFO: Resetting server to bootloader
+INFO: =======================
+INFO: Start updater_ecu_discovery
+INFO:  Updater State = 9
+
+INFO: =======================
+INFO: Set to Programming session
+INFO: Send diag messages 2
+INFO: processing doip message
+INFO: received eDiagMsgNegAck
+INFO: source address: 2004
+INFO: target address: 1111
+INFO: diagnostic ack code: eUnkownTA
+INFO: Receiving a negative Ack
+INFO: Waiting to finish all thread job
+INFO: End of doip client message receive thread
+INFO: ECU Update failed
+INFO:  Update Status = 16%
+INFO:  Final/Single Update Status = 0x0000001D
+INFO:  Exiting UpdateThisECU_, return value = 0x0000001D
+INFO: DOIP function failed with 1
+INFO: Exiting doipAppControlMain
+INFO:  Update failed for ECU Entry 1, ECU ID 0x4019
+INFO:  Computed offset to image: 70
+INFO:  Stored hash of image: cbb81adb5f7efe133f74d12191394202ceb8643b240dc3fcacf149c4255a2b03
+INFO:  Computed hash of image: cbb81adb5f7efe133f74d12191394202ceb8643b240dc3fcacf149c4255a2b03
+INFO:  Starting firmware Update - Cycle: 2, file: ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_App_A1.ec2
+INFO:  ECU Module Format Version = 2
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  GetGatewayServerIPAddress IP address 172.26.200.101
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  GetGatewayBroadcastIPAddress IP address 172.26.200.255
+INFO:  Setting up for component 2 of ../test/unittest/swota_package_builder_deployment/outputs/directory_for_cloud/DCM_App_A1.ec2
+INFO:  Program block 0, address 0x00014000, size 0x00061818
+INFO: Starting DoIP Instance
+INFO: DoIP test equipment configuration :-
+INFO:   serverip: 172.26.200.101
+INFO:   broadcastAddr: 172.26.200.255
+INFO:   doip port: 13400
+INFO:   bus_ecuid: 0x4019
+INFO: Starting all threads ...
+INFO: Entering doip_AC_threadInit
+INFO: doip_AC_threadInit: Calling mutex_init
+INFO: Connecting to DOIP Gateway and sending routing activation request
+INFO: TCP Handler connected to DOIP Gateway
+INFO:     &pDoipGlobalData->doipClientReceiveTID=0xa52748
+INFO:     doipClientHandlerThread=0x40c5b0
+INFO:     pDoipGlobalData=0xa52608
+INFO: Entering OpenThread
+INFO: OpenThread: Calling pthread_create, arguments are:
+INFO:     pThreadID=0xa52748
+INFO:     NULL=NULL
+INFO:     pThreadHandler=0x40c5b0
+INFO:     (void*)pDoipGlobalData)=0xa52608
+INFO: OpenThread: Testing status
+INFO: OpenThread: Returning from OpenThread
+INFO: Exiting doip_AC_threadInit
+INFO: DoIP test equipment has been initialized successfully.
+INFO:  Update Status = 16%
+INFO: Entering doipClientHandlerThread
+INFO: received eRouteActResp
+INFO: route activation resp code : eSuccessRoute
+INFO:  Update Status = 16%
+INFO: About to start ecu binary file updater
+INFO:  Acquiring table index for ECU ID 0x4019
+INFO:  GetUpdateDiscoveryMethod updateDiscoveryMethod 5
+INFO: Resetting server to bootloader
+INFO: =======================
+INFO: Start updater_ecu_discovery
+INFO:  Updater State = 9
+
+INFO: =======================
+INFO: Set to Programming session
+INFO: Send diag messages 2
+INFO: processing doip message
+INFO: received eDiagMsgNegAck
+INFO: source address: 2004
+INFO: target address: 1111
+INFO: diagnostic ack code: eUnkownTA
+INFO: Receiving a negative Ack
+INFO: Waiting to finish all thread job
+INFO: End of doip client message receive thread
+INFO: ECU Update failed
+INFO:  Update Status = 100%
+INFO:  Final/Single Update Status = 0x0000001D
+INFO:  Exiting UpdateThisECU_, return value = 0x0000001D
+INFO: DOIP function failed with 1
+INFO: Exiting doipAppControlMain
+INFO:  Update failed for ECU Entry 2, ECU ID 0x4019
+INFO:  Responding with UpdateCycleProgress message
+INFO:  Responding with UpdateCycleError message
+INFO:  Errors detected during execution:
+INFO:  Exiting with status: 29, Update failed for ECU ID 0x4019, component 0: ECU Won't Switch To Programm
+INFO:  Exiting with status: 29, Update failed for ECU ID 0x4019, component 1: ECU Won't Switch To Programm
+INFO:  Exiting with status: 29, Update failed for ECU ID 0x4019, component 2: ECU Won't Switch To Programm
